@@ -1,8 +1,13 @@
 @import "fonts";
+@import "variables";
+
+a:hover{
+	text-decoration: none;
+}
 
 .wrapper{
-	background-color: #D9F3F8;
 	.wrapper-head{
+		background-color: $light-blue;
 		.menu-nav{
 			.wrapper-menu{
 
@@ -17,5 +22,14 @@
 				text-align: center;
 			}
 		}		
+	}
+	.wrapper-body{
+		text-align: center;
+		.title{
+			color: $dark-gray;
+			//font-family: $font-oswald;
+			font-size: 40px;
+			text-transform: uppercase;
+		}
 	}
 }
