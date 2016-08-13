@@ -1,0 +1,21 @@
+@import "fonts";
+
+.wrapper{
+	background-color: #D9F3F8;
+	.wrapper-head{
+		.menu-nav{
+			.wrapper-menu{
+
+			}
+		}
+		.content-head{
+			height: 400px;
+			padding-top: 150px;
+			h1{
+				color: #333333;
+				margin: 0;
+				text-align: center;
+			}
+		}		
+	}
+}
