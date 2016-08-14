@@ -12,17 +12,17 @@
 				<div class="navbar-collapse navbar-right collapse">
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="#">Regístrate</a>
+							<%= link_to "Regístrate", root_path %>
 						</li>
 						<li>
-							<a href="dilemas.html">Iniciar Sesión</a>
+							<%= link_to "Iniciar Sesión", root_path %>
 						</li>
 					</ul>
 				</div>
 			</div>	
 		</div>
 		<div class="content-head">
-			<h1>LavalaTu</h1>
+			<h1>LavaloTu</h1>
 		</div>
 	</section>
 	<section class="wrapper-body container">
@@ -39,6 +39,39 @@
 			</div>
 		</div>
 	</section>
+	<div class="option-menu">
+		<button id="share-button" class="share-button">+</button>
+		<div id="share-wrapper" class="share-wrapper">
+			<ul>
+				<li>
+					<%= link_to root_path do %>
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					<% end %>	
+				</li>
+				<li>
+					<%= link_to root_path do %>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<% end %>
+				</li>
+				<li>
+					<%= link_to root_path do %>
+					<i class="fa fa-whatsapp" aria-hidden="true"></i>
+					<% end %>
+				</li>
+				<li>
+					<%= link_to root_path do %>
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+					<% end %>
+				</li>
+				<li>
+					<%= link_to root_path do %>
+					<i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
+					<% end %>
+				</li>
+			</ul>
+		</div>
+		<div id="share-overlay" class="share-overlay"></div>
+	</div>
 </section>
 <footer>
 	<div class="container">
@@ -61,4 +94,4 @@
 			</ul>
 		</div>
 	</div>
-</footer>
+</footer>	
